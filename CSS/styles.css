@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    width: 100wh;
+    color: #fff;
+    background-color: #7D3C98;
+    background-image: linear-gradient(270deg, #7D3C98, #884EA0, #AF7AC5);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.title h1 {
+    font-size: 3rem;
+}
+
+.score-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.scorecard {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gameplay {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user, .comp {
+    font-size: 2.7rem;
+}
+
+img {
+    width: 70px;
+}
+
+.gameplay {
+    display: flex;
+
+}
+
+.icon {
+    border: 3px solid #fff;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: border 0.3s ease-in, transform 0.2s ease-in;
+}
+.icon:hover {
+    border: 3px solid #5DADE2;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.reset-btn {
+    background-color: #3498DB;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 1.03rem;
+    transition: background-color 0.2s ease-in;
+}
+
+.reset-btn:hover {
+    background-color: #21618C;
+    cursor: pointer;
+}
+
+.credit div {
+    padding: 5px 0;
+    color: #B2BABB;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.result {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.credit a {
+    text-decoration: none;
+    color: #FBFCFC;
+    font-size: 0.7rem;
+
+}
+
+@media (max-width: 800px) {
+    .title h1 {
+        font-size: 2rem;
+    }
+}
