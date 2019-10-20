@@ -105,7 +105,32 @@ img {
 }
 
 @media (max-width: 800px) {
+
+    body {
+        background-color: #7D3C98;
+        background-image: linear-gradient(300deg, #7D3C98, #884EA0, #AF7AC5);
+    }
     .title h1 {
         font-size: 2rem;
+        text-align: center;
+    }
+    .scorecard {
+        width: 150px;
+    }
+    .user, .comp {
+        font-size: 2rem;
+    }
+    .gameplay {
+        width: 300px;
+    }
+    .icon {
+        width: 80px;
+        height: 80px;
+    }
+    img {
+        width: 50px;
+    }
+    .score-title {
+        font-size: 1.3rem;
     }
 }
